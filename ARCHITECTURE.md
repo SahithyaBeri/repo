@@ -20,8 +20,6 @@ I selected **Qwen2.5-VL-2B** as my Video-Language Model (VLM) for this project. 
 **Conclusion:**  
 I chose Qwen2.5-VL-2B because it balances compute feasibility with video-processing capabilities while staying within the 5–7 GB VRAM budget of a standard T4 GPU.
 
----
-
 ## 2. Frame Sampling Rationale
 
 I use **boundary-aware sampling** instead of uniform sampling.  

@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+
+  vlm-api:
+
+    build: .
+
+    container_name: openpack_vlm
+
+    ports:
+      - "8000:8000"
+
+    restart: always
